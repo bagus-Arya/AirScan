@@ -28,7 +28,7 @@ export default function Home() {
 
   return (
     <LinearGradient colors={gradientColors} style={styles.container}>
-      <Text style={styles.title}>Air Quality Monitoring</Text>
+      <Text style={styles.title}>Air Quality</Text>
       <View style={styles.card}>
         <Text style={styles.cardTitle}>Current Status</Text>
         <Text style={styles.cardText}>{airQualityData.status}</Text>
